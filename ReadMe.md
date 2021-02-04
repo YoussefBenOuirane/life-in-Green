@@ -1,0 +1,1 @@
+i created this static site after watching dev-ed 2019 css tutorial 

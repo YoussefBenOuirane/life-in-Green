@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    width: 99%;
+    height: 10vh;
+    margin: auto;
+    text-align: center;
+ 
+}
+.logo-container,.cart,.nav-links{
+background-color:lightgrey;
+display: flex;
+}
+.logo-container{
+    flex: 1;
+}
+.logo{
+    font-weight: 400;
+    margin: 20px;
+    color: teal;
+}
+nav{
+    flex: 2;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+    height: 10vh;
+}
+.nav-link{
+    text-decoration:none;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: teal;
+}
+.cart{
+ justify-content: flex-end;
+    flex: 1;
+}
+.presentation{
+    display: flex;
+    width: 99%;
+    margin: auto;
+    min-height: 80vh;
+    align-items:center;
+    background-color:whitesmoke
+}
+.introduction{
+    background-color:darkseagreen;
+}
+.introduction h1{
+    font-size: 44px;
+    text-align: center;
+}
+.introduction p{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.cover img{
+    height: 100vh;
+    width:auto;
+}
+.cta-choose{
+    width: 50%;
+    height: 4vh;
+    cursor: pointer;
+    margin-left: 35px;
+}
+.cta-select{
+    width: 14%;
+    height: 4vh;
+  cursor: pointer;
+    border: 3px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cornflowerblue;
+    font-weight: bold;
+
+
+}
