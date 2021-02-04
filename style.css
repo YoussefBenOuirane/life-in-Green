@@ -45,6 +45,7 @@ a{
 .cart{
  justify-content: flex-end;
     flex: 1;
+    cursor: pointer;
 }
 .presentation{
     display: flex;
